@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="57dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="29dp"
+            android:fontFamily="serif"
+            android:foregroundGravity="center"
+            android:text="Latest Hazard News"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/banjirr"
+        android:layout_width="270dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="-83dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="296dp"
+        android:src="@drawable/banjir" />
+
+    <TextView
+        android:id="@+id/tanahdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="462dp"
+        android:fontFamily="serif"
+        android:text="Dangerous landslides in Dungun Terengganu caused by heavy rain and strong winds have left residents displaced and homes destroyed; emergency aid is being provided."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/banjirdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="252dp"
+        android:fontFamily="serif"
+        android:text="The flood in Pasir Mas Kelantan is dangerous due to heavy rain and overflowing rivers, causing damage and displacing residents."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/slide"
+        android:layout_width="329dp"
+        android:layout_height="256dp"
+        android:layout_below="@id/banjirdesc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="85dp"
+        android:src="@drawable/tanahruntuh" />
+
+
+</RelativeLayout>

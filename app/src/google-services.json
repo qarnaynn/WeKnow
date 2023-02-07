@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "397461762223",
+    "project_id": "weknow-376510",
+    "storage_bucket": "weknow-376510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397461762223:android:0c4135e0c7c6232319a45a",
+        "android_client_info": {
+          "package_name": "com.example.weknow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397461762223-mpm69o4f0p494b05kfdotu8pplb6palb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weknow",
+            "certificate_hash": "77b2a5e945b3ce5e965bf1f12f10d52672ba6045"
+          }
+        },
+        {
+          "client_id": "397461762223-6io9lrpscr68nvd136q2hcnv6344rv2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTCi4l5Wd_ynlvKdMjGSYaWav1EFYeqpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397461762223-6io9lrpscr68nvd136q2hcnv6344rv2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

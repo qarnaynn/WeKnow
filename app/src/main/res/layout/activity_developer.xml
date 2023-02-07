@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Developer">
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="416dp"
+        android:fontFamily="serif"
+        android:text="Visit Website :"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auni"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="202dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:text="www.hospitaltracker.com"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorLink="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="-40dp"
+        android:fontFamily="serif"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="DEVELOPER"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/space1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space"
+        android:layout_alignParentLeft="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title1"
+        android:layout_centerHorizontal="false" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="114dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auni"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="monospace"
+        android:text="AUNI NABIHAH BINTI MOHAMAD SHARIFUDDIN"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/syamim"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/space1"
+        android:layout_marginTop="28dp"
+        app:srcCompat="@drawable/syamim" />
+
+    <ImageView
+        android:id="@+id/zul"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/space1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="0dp"
+        app:srcCompat="@drawable/zul" />
+
+    <ImageView
+        android:id="@+id/auni"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/space1"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dip"
+        app:srcCompat="@drawable/auni" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="114dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/syamim"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="monospace"
+        android:foregroundGravity="left"
+        android:gravity="center"
+        android:text="MOHD SYAMIM BIN MUHAMMAD JAFFAR"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="-11dp"
+        android:text="2021121787"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="14dp"
+        android:text="2021122599"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="260dp"
+        android:text="2021121835"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="114dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zul"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="monospace"
+        android:text="MOHAMMAD ZULQARNAIN BIN AB RASHID"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="260dp"
+        android:text="RCS404A"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dp"
+        android:text="RCS2404A"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="-11dp"
+        android:text="RCS2404A"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView81"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="260dp"
+        android:text="CS240"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView82"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dp"
+        android:text="CS240"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="140dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView83"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="-11dp"
+        android:text="CS240"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
